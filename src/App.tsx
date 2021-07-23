@@ -55,6 +55,14 @@ function App() {
             name: "Walk",
             handler: () => loadDataFromEndpoint("/digipet/walk"),
           },
+          {
+            name: "Ignore",
+            handler: () => loadDataFromEndpoint("/digipet/ignore"),
+          },
+          {
+            name: "Training",
+            handler: () => loadDataFromEndpoint("/digipet/train"),
+          },
           { name: "Feed" },
         ]}
       />
